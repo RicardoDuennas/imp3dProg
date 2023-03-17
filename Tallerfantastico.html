@@ -1,0 +1,11 @@
+s0.initImage("https://i.imgur.com/u20n7cd.jpeg")
+src(s0).rotate(() => time%360).out(o0)
+
+
+
+
+// default
+s0.initImage("https://i.imgur.com/u20n7cd.jpeg")
+osc(6).modulate(src(s0),1).rotate(() => time%360).out(o0)
+
+
